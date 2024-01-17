@@ -1,0 +1,99 @@
+/*Adaptado a mobile*/
+@media(max-width: 600px){
+    
+    .Contactos{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 25px 0px;
+    }
+
+    h2{
+        font-family: 'Belanosima', sans-serif;
+        font-weight: 1;
+        color: white;
+        text-align: center;
+        padding: 0px 20px;
+        margin: 0px;
+    }
+
+    .Redes{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 0px 0px 25px 0px;
+    }
+
+    .fa-brands{
+        font-size: 300%;
+        background-color: #2f3136;
+    }
+
+    .GitHub, .Twitter, .YouTube{
+        margin: 25px 0px;
+        padding: 0;
+    }
+
+    img{
+        width: 50%;
+        padding-top: 25px;
+    }
+}
+
+/*Adaptado a PC*/
+@media(min-width: 600px){
+
+    .Contactos{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 75px 0px;
+    }
+    
+    h2{
+        font-family: 'Belanosima', sans-serif;
+        font-size: 250%;
+        font-weight: 1;
+        color: white;
+        text-align: center;
+        
+        margin: 0px;
+    }
+
+    .Redes{
+        display: flex;
+        flex-direction: row;
+        padding: 50px 0px 100px 0px;
+    }
+    
+    .fa-brands{
+        font-size: 500%;
+        background-color: #2f3136;
+    }
+    
+    .GitHub, .Twitter, .YouTube{
+        margin: 0px 50px;
+        padding: 0;
+    }
+
+    img{
+        width: 25%;
+        padding-top: 50px;
+    }
+}
+
+/*Efecto al pasar el mouse*/
+.GitHub:hover{
+    color: #000000;
+    text-decoration: none;
+}
+
+.Twitter:hover{
+    color: #1DA1F2;
+    text-decoration: none;
+}
+
+.YouTube:hover{
+    color: #FF0000;
+    text-decoration: none;
+}

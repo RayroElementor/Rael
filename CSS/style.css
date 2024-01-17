@@ -1,0 +1,84 @@
+@font-face{
+    font-family: 'GBShinto';
+    src: url(../Recursos/GBShinto.otf);
+}
+
+/*Adaptado a mobile*/
+@media(max-width: 600px){
+
+    .H-Titulo{
+        display: none;
+        font-size: 0px;
+    }
+
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/*Nav bar*/
+header, ul, a{
+    font-family: 'Belanosima', sans-serif;
+    font-size: 25px;
+    display: flex;
+    text-decoration: none;
+    color: white;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #202225;
+    list-style: none;
+    padding: 5px 0px;
+}
+
+.H-Logo{
+    display: flex;
+    padding: 0px 5px 0px 10px;
+    width: 50px;
+    transition: all 1s ease-in-out;
+}
+.H-Logo:hover {
+    transform: rotate(90deg);
+}
+
+.H-Titulo{
+    display: flex;
+    align-items: center;
+    font-family: 'GBShinto', sans-serif;
+}
+
+.N-Items{
+    padding: 0px 25px 0px 0px;
+}
+
+a:hover{
+    color: rgb(22, 206, 206);
+    text-decoration: underline;
+}
+
+/*Main*/
+body{
+    background-color: #2f3136;
+    margin: 0px;
+}
+
+p{
+    margin: 25px;
+}
+
+footer{
+    background-color: #202225;
+    margin: 0px;
+}
+
+h6{
+    color: white;
+    text-align: center;
+    font-family: 'Belanosima', sans-serif;
+    font-weight: 1;
+    font-size: 20px;
+    margin: 0px;
+    padding: 25px;
+}
